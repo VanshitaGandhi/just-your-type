@@ -72,49 +72,44 @@ html {
     position: absolute;
     top: 50px;
     left: 315px;
-    font-size: 5rem;
   }
 
   .position1 {
     position: absolute;
     left: 450px;
     top: 170px;
-    font-size: 1.5rem;
   }
 
   .position2 {
     position: absolute;
     left: 450px;
     top: 210px;
-    font-size: 1.5rem;
   }
 
   .position3 {
     position: absolute;
     left: 150px;
     top: 390px;
-    font-size: 1.5rem;
   }
 
   .position4 {
     position: absolute;
     left: 150px;
     top: 430px;
-    font-size: 1.5rem;
   }
 
   .position5 {
     position: absolute;
     left: 210px;
     top: 500px;
-    font-size: 5rem;
   }
 
   .position6 {
     position: absolute;
-    left: 320px;
+    left: 450px;
     top: 700px;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -127,49 +122,41 @@ html {
     position: absolute;
     top: 50px;
     left: 600px;
-    font-size: 7rem;
   }
-
-
 
   .position1 {
     position: absolute;
     left: 750px;
     top: 170px;
-    font-size: 2rem;
   }
 
   .position2 {
     position: absolute;
     left: 750px;
     top: 210px;
-    font-size: 2rem;
   }
 
   .position3 {
     position: absolute;
     left: 525px;
     top: 350px;
-    font-size: 2rem;
   }
 
   .position4 {
     position: absolute;
     left: 525px;
     top: 390px;
-    font-size: 2rem;
   }
 
   .position5 {
     position: absolute;
-    left: 420px;
-    top: 500px;
-    font-size: 7rem;
+    left: 525px;
+    top: 480px;
   }
 
   .position6 {
     position: absolute;
-    left: 700px;
+    left: 750px;
     top: 700px;
   }
 
