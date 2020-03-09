@@ -4,20 +4,28 @@ html {
   height: 1000px;
 }
 
-body {
+/* body {
   background: url("../images/stars.svg") 16px repeat;
-}
+} */
 
 .margin {
-  margin-bottom: 0;
+  margin-bottom: 2rem;
+}
+
+.you {
+  margin-bottom: 1rem;
 }
 
 .regular {
-font-family: Montserrat, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .script {
-font-family: 'Petit Formal Script', cursive;
+  font-family: "Petit Formal Script", cursive;
+}
+
+.maxwidth {
+  max-width: 28em;
 }
 
 /* .transparent {
@@ -26,28 +34,18 @@ font-family: 'Petit Formal Script', cursive;
 
 @media only screen and (min-width: 25em) {
 
-  html {
-    font-size: 110%;
-    line-height: 1.4;
-  }
-
   h1,
   p {
     margin: 0 0 1.4rem;
   }
 
   .margin {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
-
-  html {
-    font-size: 110%;
-    line-height: 1.4;
-  }
 
   h1,
   p {
@@ -63,18 +61,12 @@ font-family: 'Petit Formal Script', cursive;
   }
 
   .margin {
-    margin-bottom: 0;
+    margin-bottom: 3rem;
   }
-
 
 }
 
 @media only screen and (min-width: 60em) {
-
-  html {
-    font-size: 120%;
-    line-height: 1.5;
-  }
 
   h1,
   p {
@@ -90,8 +82,17 @@ font-family: 'Petit Formal Script', cursive;
   }
 
   .margin {
-    margin-bottom: 0;
+    margin-bottom: 4rem;
   }
 
+  body {
+    position: relative;
+  }
+
+  .position {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+  }
 
 }
